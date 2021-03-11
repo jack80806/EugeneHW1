@@ -13,6 +13,7 @@
 		33BCB1B825F4A12B0083EF52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33BCB1B725F4A12B0083EF52 /* Assets.xcassets */; };
 		33BCB1BB25F4A12B0083EF52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33BCB1BA25F4A12B0083EF52 /* Preview Assets.xcassets */; };
 		33BCB1BE25F4A12B0083EF52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33BCB1BC25F4A12B0083EF52 /* LaunchScreen.storyboard */; };
+		33BCB1C625F4B3B90083EF52 /* question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCB1C525F4B3B90083EF52 /* question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		33BCB1BA25F4A12B0083EF52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		33BCB1BD25F4A12B0083EF52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33BCB1BF25F4A12B0083EF52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33BCB1C525F4B3B90083EF52 /* question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +59,12 @@
 			isa = PBXGroup;
 			children = (
 				33BCB1B125F4A1290083EF52 /* AppDelegate.swift */,
-				33BCB1B325F4A1290083EF52 /* SceneDelegate.swift */,
 				33BCB1B525F4A1290083EF52 /* ContentView.swift */,
+				33BCB1B325F4A1290083EF52 /* SceneDelegate.swift */,
 				33BCB1B725F4A12B0083EF52 /* Assets.xcassets */,
 				33BCB1BC25F4A12B0083EF52 /* LaunchScreen.storyboard */,
 				33BCB1BF25F4A12B0083EF52 /* Info.plist */,
+				33BCB1C525F4B3B90083EF52 /* question.swift */,
 				33BCB1B925F4A12B0083EF52 /* Preview Content */,
 			);
 			path = EugeneHW1;
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33BCB1B225F4A1290083EF52 /* AppDelegate.swift in Sources */,
+				33BCB1C625F4B3B90083EF52 /* question.swift in Sources */,
 				33BCB1B425F4A1290083EF52 /* SceneDelegate.swift in Sources */,
 				33BCB1B625F4A1290083EF52 /* ContentView.swift in Sources */,
 			);
